@@ -65,10 +65,10 @@ steps:
   displayName: 'Publist Artificat: drop'
   condition: succeeded()
 
-- template: Templates/build.yml
+- template: Templates\build.yml
   parameters:
     buildConfiguration: 'Debug'
-- template: Templates/build.yml
+- template: Templates\build.yml
   parameters:
     buildConfiguration: 'Release'
 
